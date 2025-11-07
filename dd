@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main() {
+    int x;
+    for (x = 1;; x++)
+    {
+        int n = x * x;
+      if (n < 1000)continue;
+    if (n > 9999)break;
+    int a = n / 100;
+    int b = n % 100;
+
+}
+    return 0;
+}
